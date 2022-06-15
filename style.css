@@ -201,3 +201,11 @@ form .button:active {
     font-size: small;
   }
 }
+
+input:invalid{
+  background-image: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+  border-color: hsl(0, 100%, 74%);
+}
