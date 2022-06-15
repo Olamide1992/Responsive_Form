@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="Learn_text">
+      <h1><b>Learn to code</b></h1>
+      <h1><b>by watching others</b></h1>
+      <p>See how experienced developers solve problems in real-time.</p>
+      <p>Watching scripted tutorials is great, but understanding how</p>
+      <p>developers think is invaluable.</p>
+    </div>
+    <div class="container">
+      <p class="containertxt">
+        <b>Try it free 7 days</b> then 20/mo. thereafter
+      </p>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details"></span>
+              <input
+                id="fname"
+                type="text"
+                placeholder="First name"
+                minlength="3"
+                maxlength="20"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details"></span>
+              <input
+                id="lname"
+                type="text"
+                placeholder="Last name"
+                minlength="3"
+                maxlength="20"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details"></span>
+              <input
+                id="email"
+                type="email"
+                placeholder="Email"
+                maxlength="20"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details"></span>
+              <input
+                id="pword"
+                type="password"
+                placeholder="Password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                required
+              />
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="CLAIM YOUR FREE TRIAL" />
+          </div>
+          <p class="t_s">
+            By clicking this button, you are agreeing to our
+            <b>Terms and Services</b>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
