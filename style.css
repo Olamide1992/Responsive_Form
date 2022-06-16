@@ -101,7 +101,7 @@ form .input-box span.details {
 
 .user-details .input-box input:invalid {
   border-color: hsl(0, 100%, 74%);
-  background-image: url("icon-error.svg");
+  background-image: url("./images/icon-error.svg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 20px;
@@ -202,10 +202,10 @@ form .button:active {
   }
 }
 
-input:invalid{
+/*input:invalid{
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 95%;
   border-color: hsl(0, 100%, 74%);
-}
+}*/
